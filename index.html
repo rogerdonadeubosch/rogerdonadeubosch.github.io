@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Porfoli Roger Donadeu</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="Caixa">
+		<h1>Porfoli Roger Donadeu</h1>
+        <!--comentari-->
+			<div class="Caixa1">
+				Hola, el meu nom es Roger Donadeu, des de molt petit ja m'agradava jugarà videojocs, sobretots aquells amb ambientació en mons fantàstics, això va fer que arribes a la conclusió que jo volia crear aquells mons, per això vaig començar a informar-me i fer alguns dissenys, que per desgràcia, no conservo. Però aquella ambició no ha canviat amb el pas dels anys.
+			</div>
+			<div class="Caixa1">
+				<h2>Treballs</h2>
+				<div class="container-display">
+        			<img class="mySlides" src="img/img1.jpg" style="width:100%">
+        			<img class="mySlides" src="img/img2.png" style="width:100%">
+        			<img class="mySlides" src="img/img3.png" style="width:100%">
+
+        			<button class="boton-slider fletxaDreta-slider" onclick="plusDivs(-1)">&#10094;</button>
+        			<button class="boton-slider fletxaEsquerra-slider" onclick="plusDivs(1)">&#10095;</button>
+    			</div>
+    		</div>
+    		<script>
+        		var slideIndex = 1;
+        		showDivs(slideIndex);
+
+        		function plusDivs(n) {
+            	showDivs(slideIndex += n);
+       			 }
+
+        		function showDivs(n) {
+            	var i;
+            	var x = document.getElementsByClassName("mySlides");
+            	if (n > x.length) {
+                slideIndex = 1
+            	}
+            	if (n < 1) {
+                slideIndex = x.length
+            	}
+            	for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            	}
+            	x[slideIndex - 1].style.display = "block";
+        		}
+
+    		</script>
+			<div>
+				<h4 class="ASS">Mes feines a</h4>
+					<div class="Caixa1">
+						<a href="https://www.behance.net/rugi09" ><img src="img/behance.svg" class="asa" style="height: 20px; width: 100%;"></a>
+						<a href=""></a>
+					</div>
+					<div class="contenidor-footer">Roger Donadeu · Tel: 601 24 47 89 · roger.donadeu@uvic.cat/rdonadeubosch@gmail.com</div>
+			</div>
+			
+		</div>
+		
+	</body>
+</html>
+=======
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Roger Donadeu</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Manrope:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<style>
+
+    h1 {
+
+        font-family: 'Abril Fatface', cursive;
+
+        font-size: 50px;
+
+        text-align: center;
+
+    }
+
+    h2 {
+
+        font-family: 'Manrope', sans-serif;
+
+        text-align: center;
+
+    }
+
+</style>
+
+<body>
+
+    <center>
+
+    <h1>Roger Donadeu</h1>
+
+    <img src="Demacia_Crest.png" alt="logo">
+
+    <h2>Dibuixant </h2>
+
+    <a href="https://www.behance.net/rogerdonadeu"><img 
+
+    
+
+    src="bh.png" alt="Behance" width="50px" align="center"></a></center>
+
+</body></html>
+>>>>>>> 2a675d2b1a2064551f57661940bc7500523d4cf2:index.html

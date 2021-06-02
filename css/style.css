@@ -1,0 +1,115 @@
+body {
+    width:45%;
+    margin:auto;
+ 	font-family: sans-serif;
+ 	background-color: lightblue;
+
+
+ }
+ .Caixa {
+ 	background-color: #33ffff ;
+ 	width: 100%;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ 	border: solid;
+ 	padding-right: 10px;
+ 	padding-left: 10px;
+ 	padding-bottom: 10px;
+ 	border-radius: 30px;
+    min-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .Caixa1 {
+ 	background-color: #33ffff ;
+ 	width: 100%;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ 	border: solid;
+ 	padding:10px;
+ 	border-radius: 10px;
+    line-height: 1.4em;margin-bottom: 12px;
+ }
+
+
+
+ Slaider
+
+ .clearfix {
+        overflow: auto;
+    }
+
+    .container {
+        width: 75%;
+        margin: auto;
+        border: 1px solid red;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .container-display {
+        position: relative;
+        width: 98%;
+        /*indicador*/
+        margin: 5px;
+        border: 1px dashed green;
+
+    }
+
+    .container-text {
+        text-align: left;
+        /*indicador*/
+        margin: 5px;
+        border: 1px dashed purple;
+    }
+
+    .boton-slider {
+        width: 30px;
+        height: 30px;
+        background-color: grey;
+    }
+
+    .boton-slider:hover {
+        width: 30px;
+        height: 30px;
+        background-color: ghostwhite;
+        border-radius: 10px;
+    }
+
+    .fletxaDreta-slider {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(0%, -50%);
+        */
+    }
+
+    .fletxaEsquerra-slider {
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        transform: translate(0%, -50%);
+    }
+
+
+    .mySlides {
+        display: none;
+    }
+
+    .ASS{
+        text-align: center;
+    }
+    
+    .contenidor-footer {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    padding: 5px 24px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 7px;
+}
